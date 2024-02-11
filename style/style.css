@@ -20,3 +20,128 @@ body {
     padding: 25px 30px;
     background: #fff;
 }
+
+
+
+.sidebar-sect {
+    border-radius: 20px;
+    background: #FDFDFD;
+    height: 82vh;
+}
+
+.navbar-brand h2 {
+    font-size: 48px;
+    padding: 30px 0;
+}
+
+.nav-sect {
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+.nav li a:hover{
+    background: #FF8144;
+    color: #fff;
+}
+
+.nav-item a i {
+    padding-right: 30px;
+}
+
+.page-title h2 {
+    font-weight: 600;
+    padding: 13px 0;
+}
+
+.box-simple {
+    border-radius: 10px;
+    border: 1px solid #F95E07;
+    background: #FFF;
+    padding:20px;
+}
+
+.simple-btn {
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding:10px;
+    font-weight: 700;
+}
+
+.border-left {
+    border-left: 1px solid #000;
+    padding-left: 30px;
+}
+
+.order-container {
+    border-radius: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    background: #FFF;
+    padding: 20px;
+}
+
+.order-main-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.order-light-text {
+    color: #797B7E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order-dark-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+hr {
+    margin:2px 0 14px;
+}
+
+.cross-icon {
+    border-radius: 10px;
+    border: 1px solid #DB79A9;
+    color: #DB79A9;
+    padding: 10px 16px;
+}
+
+.tick-icon {
+    border-radius: 10px;
+    border: 1px solid #87B6A1;
+    color: #87B6A1;
+    padding: 10px 16px;
+}
+
+.icon-sect > div:nth-child(1) {
+    margin-right: 10px;
+}
+
+.unavailable-btn{
+    border-radius: 10px;
+    border: 1px solid #C2C2C2;
+    color: #8F8F8F;
+    background: #FFF;
+    padding:10px;
+    font-weight: 700;
+}
