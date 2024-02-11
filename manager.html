@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/manager.css">
+    <title>Tiffin Master - Manager</title>
+</head>
+
+<body>
+        <nav class="navbar-main navbar navbar-expand-lg container-fluid">
+            <div class="container gx-0">
+                <a class="navbar-brand" href="#">Tiffin Master Logo</a>
+               
+                <div class="d-flex align-items-center">
+                    <img src="./assets/img5.png">
+                    <p class="p-2 m-0">My Account</p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="sidebar-sect d-flex flex-column flex-shrink-0 p-3">
+                                <a href="#" class="navbar-brand text-center">
+                                    <h2>Logo</h2>
+                                </a>
+                                <div class="nav-sect d-flex flex-column justify-content-between">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>DASHBOARD</a>
+                                        </li>
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>TIFFIN CUSTOMERS</a>
+                                        </li>
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>MESSAGES</a>
+                                        </li>
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>PACKAGING</a>
+                                        </li>
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>PRODUCTS</a>
+                                        </li>
+                                        <li class="nav-item mb-1">
+                                            <a href="#"><i class="fa-solid fa-wave-square"></i>SETTINGS</a>
+                                        </li>
+                                    </ul>
+
+                                <div class="nav">
+                                    <li class="nav-item mb-1">
+                                        <a href="#"><i class="fa-solid fa-wave-square"></i>Log Out</a>
+                                    </li>
+                                    </div>
+                                </div>
+                    
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="page-title">
+                            <h2>Welcome to Tiffin Master’s Manager account</h2>
+                        </div>
+                        <div class="overview-sect py-4">
+                            <h4>Overview</h4>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="box-simple">
+                                        <h2>234</h2>
+                                        <h6>Total Customer</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box-simple">
+                                        <h2>315</h2>
+                                        <h6>Total Orders</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box-simple">
+                                        <h2>$ 2615</h2>
+                                        <h6>Total Sales</h6>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="kitchen-report-sect py-4">
+                            <div class="d-flex align-items-center justify-content-between"> 
+                                <h4>Kitchen Report</h4>
+                                <div class="simple-btn">Packing Staff</div>
+                            </div>
+                            <p>Wednesday, 7 Feb 2024</p>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="box-simple">
+                                        <h2>68</h2>
+                                        <h6>Tiffin Orders</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box-simple">
+                                        <h2>50</h2>
+                                        <h6>Current Subscribers</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="box-simple d-flex justify-content-between">
+                                        <div>
+                                            <h2>300</h2>
+                                            <h6>Roti's</h6>
+                                        </div>
+                                        <div class="border-left">
+                                            <h2>60</h2>
+                                            <h6>Half Rice</h6>
+                                        </div>
+                                        <div class="border-left">
+                                            <h2>90</h2>
+                                            <h6>Full Rice</h6>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="new-order-sect py-4">
+                                <div class="d-flex align-items-center justify-content-start"> 
+                                    <h4>New Tiffin Orders</h4>
+                                    <div class="simple-btn ms-4">See Rejected Orders</div>
+                                    <div class="simple-btn ms-4">All Orders</div>
+                                </div>
+                                <p>Wednesday, 7 Feb 2024</p>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="box-simple">
+                                            <h2>68</h2>
+                                            <h6>Tiffin Orders</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="box-simple">
+                                            <h2>50</h2>
+                                            <h6>Current Subscribers</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="box-simple d-flex justify-content-between">
+                                            <div>
+                                                <h2>300</h2>
+                                                <h6>Roti's</h6>
+                                            </div>
+                                            <div class="border-left">
+                                                <h2>60</h2>
+                                                <h6>Half Rice</h6>
+                                            </div>
+                                            <div class="border-left">
+                                                <h2>90</h2>
+                                                <h6>Full Rice</h6>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text">Confirm to add</p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="cross-icon">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                    
+                                                    <div class="tick-icon">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text"></p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="cross-icon">
+                                                        <div>View Details</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text">Confirm to add</p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="cross-icon ">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                    
+                                                    <div class="tick-icon">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text">Confirm to add</p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="cross-icon">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                    
+                                                    <div class="tick-icon">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text"></p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="tick-icon">
+                                                        <div>Completed</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="order-container mt-5">
+                                            <h5 class="order-main-text">Order #348</h5>
+                                            <p class="order-light-text">05 Feb 2024, 08:28 PM</p>
+                                            <h5 class="order-main-text">Customer Name</h5>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <img src="./assets/img1.png">
+                                                <div>
+                                                    <h5 class="order-main-text">Royal Feast Monthly</h5>
+                                                        <h5 class="order-main-text">(12 oz)</h5>
+                                                    <p class="order-light-text">Via Credit Card</p>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="order-dark-text">$210/month</p>
+                                                        <p class="order-dark-text">Qty: 1</p>
+                                                    </div>
+                                                    <hr>
+                                                    <div>
+                                                        <h5 class="order-main-text">STAPLE</h5>
+                                                        <p class="order-light-text">4 Roti + Half Rice</p>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="order-main-text">Subscription Start Date</h5>
+                                                        <p class="order-light-text">Saturday, 24 Feb 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="order-light-text">Confirm to add</p>
+                                                <div class="d-flex icon-sect">
+                                                    <div class="cross-icon">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                    
+                                                    <div class="tick-icon">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
