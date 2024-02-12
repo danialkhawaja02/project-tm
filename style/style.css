@@ -145,3 +145,42 @@ hr {
     padding:10px;
     font-weight: 700;
 }
+
+.table-main-text {
+    font-size: 14px;
+    color: #000;
+}
+
+.table-light-text {
+    font-size:  14px;
+    color: #666;
+}
+
+table td, table th {
+    padding: 15px 10px 3px !important;
+}
+
+  .table-btn {
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #666;
+    padding: 3px 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.table-customer > thead > tr > th {
+    background: #FAE6D3;
+    font-weight: 600;
+    padding: 15px 10px 10px !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #F9F7F7; 
+ }
+
+ .table-striped>tbody>tr:nth-of-type(odd)>* {
+   --bs-table-bg-type: #fff; 
+ }
