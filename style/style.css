@@ -184,3 +184,19 @@ table td, table th {
  .table-striped>tbody>tr:nth-of-type(odd)>* {
    --bs-table-bg-type: #fff; 
  }
+
+
+ .primary-btn {
+    border-radius: 10px;
+    background: #F97224;
+    color: #fff;
+    padding:7px;
+ }
+
+ .secondary-btn {
+    border-radius: 10px;
+    border: 1px solid #F97224;
+    color: #F97224;
+    background: #fff;
+    padding:7px;
+ }
