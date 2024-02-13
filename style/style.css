@@ -204,7 +204,7 @@ table td, table th {
     margin: 0px;
  }
 
- .product-plan input {
+ .product-plan input, .user-settings input {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.40);
     background: #FFF;
@@ -212,7 +212,7 @@ table td, table th {
     width: 100%;
  }
 
- .product-plan label:after, .delivery-text label:after, .staple-text:after { 
+ .product-plan label:after, .delivery-text label:after, .staple-text:after, .user-settings label:after { 
     content:" *"; 
     color: #FF4D4D;
     font-size: 22px;
@@ -242,7 +242,7 @@ table td, table th {
 
  }
 
- .tiffin-price-input > div:nth-child(1) {
+ .tiffin-price-input > div:nth-child(1), .user-info > div {
     padding-right: 25px ;
  }
 
@@ -255,4 +255,26 @@ table td, table th {
 
  .delivery-week > div, .staple-options > div {
     padding: 3px 0px;
+ }
+
+
+ .user-btn {
+    border-radius: 10px;
+    background: #F97224;
+    color: #fff;
+    padding:8px 30px;
+    margin:0px;
+    text-align: center;
+ }
+
+ .resturant-date {
+    border-radius: 10px;
+    border: 1px solid  rgba(0, 0, 0, 0.40);
+    background: #FFF;
+    padding: 18px 20px !important;
+ }
+
+
+ .resturant-date i {
+    font-size: 17px;
  }
