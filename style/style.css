@@ -191,6 +191,8 @@ table td, table th {
     background: #F97224;
     color: #fff;
     padding:7px;
+    margin:0px;
+    text-align: center;
  }
 
  .secondary-btn {
@@ -199,4 +201,58 @@ table td, table th {
     color: #F97224;
     background: #fff;
     padding:7px;
+    margin: 0px;
+ }
+
+ .product-plan input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: #FFF;
+    padding: 7px 15px !important;
+    width: 100%;
+ }
+
+ .product-plan label:after, .delivery-text label:after, .staple-text:after { 
+    content:" *"; 
+    color: #FF4D4D;
+    font-size: 22px;
+}
+
+ .product-plan textarea {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: #FFF;
+    padding: 7px 15px !important;
+ }
+
+ .product-plan label {
+    padding: 15px 0px 5px !important;  
+ }
+
+ .edit-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px dashed #797B7E;
+    background: #FFF;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+
+ }
+
+ .tiffin-price-input > div:nth-child(1) {
+    padding-right: 25px ;
+ }
+
+ .delivery-week, .staple-options {
+    border-radius: 10px;
+    border: 1px solid var(--stoke, rgba(0, 0, 0, 0.40));
+    background: #FFF;
+    padding: 10px 0px 15px 42px !important;
+ }
+
+ .delivery-week > div, .staple-options > div {
+    padding: 3px 0px;
  }
