@@ -278,3 +278,24 @@ table td, table th {
  .resturant-date i {
     font-size: 17px;
  }
+
+
+ .green-btn {
+    border-radius: 10px;
+    border: 1px solid #529248;
+    color: #529248;
+    padding:7px;
+    margin:0px;
+    text-align: center;
+    
+ }
+
+ .light-btn {
+    border-radius: 10px;
+    border: 1px solid #0000003e;
+    color: #000;
+    padding:7px;
+    margin:0px;
+    text-align: center;
+    
+ }
