@@ -356,4 +356,203 @@ table td, table th {
     border: 1px solid rgba(0, 0, 0, 0.40);
     background: #FFF;
     padding: 20px;
+ } 
+
+ .feature-menu-title p {
+    text-transform: uppercase;
+ }
+
+ .feature-menu-title h2 {
+    font-size: 72px;
+    font-weight: 700;
+    white-space: pre;
+    text-align: center;
+ }
+
+ .feature-menu-item h4 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+ }
+
+ .feature-menu-item p {
+    text-align: center;
+ }
+
+ .feature-menu-item a {
+    text-decoration: underline;
+    color: #FA8840;
+ }
+
+ .category-filter {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px 30px;
+ }
+
+ .category-filter i {
+    color:#FB9426;
+    font-size: 18px;
+    padding: 0px 10px 10px 0px;
+ }
+
+ .category-filter p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+
+ }
+
+ .search-filter {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 10px 10px 90px 0px rgba(0, 0, 0, 0.07);
+    padding: 20px 30px;
+ }
+
+ .search-filter input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #FED8B2;
+    background: rgba(0, 0, 0, 0.02);
+    padding: 16px 20px;
+ }
+
+ .filter-sect h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+ }
+
+ .filter-sect .filter {
+    border-radius: 5px;
+    border: 1px solid #FED8B2;
+    background: #FFF;
+    padding: 10px 80px 10px 15px;
+    
+ }
+
+ .product-home {
+    border-radius: 10px;
+    border: 1px solid #F97224;
+    background: #FFFCDF;
+    padding: 20px 30px;
+
+ }
+
+ .product-home h2 {
+    color: #F97224;
+    font-size: 32px;
+    font-weight: 700;
+ }
+
+ .product-home hr {
+    color: #F97224;
+    border-width: 2px;
+ }
+
+ .product-green-btn {
+    border-radius: 10px;
+    background: #529248;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    white-space: pre;
+ }
+
+ .product-primary-btn {
+    border-radius: 10px;
+    background: #F97224;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    white-space: pre;
+ }
+
+ .testimonial-sect h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+ }
+
+.testimonial-slider .testimonial-item { 
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+    padding: 15px !important;
+    margin: 0px 10px;
+}
+
+.testimonial-item hr {
+    border-width: 2px;
+    color:#F95E07;
+    width: 25%;
+}
+
+.testimonial-item .checked {
+    color: #FFC107;
+}
+
+.service-items div {
+    margin: 15px 0px;
+}
+
+.service-items img {
+    object-fit: cover;
+}
+
+.service-white {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px 35px;
+}
+
+.service-orange {
+    background-color: #FA8840;
+    border-radius: 25px;
+    padding: 25px 35px;
+    color: #fff;
+}
+
+.choose-sect p:nth-child(1) {
+    text-transform: uppercase;
+}
+
+.choose-sect h2 {
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.choose-sect .primary-btn {
+    padding: 16px 32px !important;
+    border-radius: 32px;
+}
+
+.list-sect i {
+    color:#5BC905;
+    padding: 0px 5px 7px 0px !important;
+}
+
+ .sm-section {
+    background-color: #F97224;
+    border-radius: 20px;
+    padding: 15px !important;
+    color: #fff;
+ }
+
+ .followus h2 {
+    font-size: 56px;
+ }
+
+ .follow-icons i {
+    font-size: 82px;
+ }
+
+
+ .footer-sect {
+    background-color: #FAEFE4;
+ }
+
+ .footer-logo {
+    width: 20%;
  }
