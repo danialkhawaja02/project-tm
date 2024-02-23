@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tiffin Master - Checkout</title>
+</head>
+
+<body>
+
+        <div class="container-fluid mt-5">
+            <div class="container">
+                <nav class="navbar-checkout navbar navbar-expand-lg container-fluid">
+                    <div class="container gx-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/logo-checkout.png" />
+                        </a>
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <div class="white-btn me-2">
+                                <img src="/assets/icon9.png" /> Cart
+                            </div>
+                            <div class="white-btn">Login</div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 mt-5">
+                        <div class="login-status-sect">
+                            <p>You are signed in with your account <strong>rehnit@gmail.com</strong></p>
+                        </div>
+
+                        <div class="order-status-sect mt-4">
+                            <h2>Your order</h2>
+
+                            <div class="order-status-info mt-3">
+                                <div class="order-info d-flex justify-content-between">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="./assets/img1.png" />
+                                        </div>
+                                        <div class="ms-4">
+                                            <h2>Royal Feast Weekly</h2>
+                                            <div class="d-flex justify-content-between">
+                                                <p>Duration <strong>1 Week</strong></p>
+                                                <p>Size <strong>12 Oz</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="order-info-price">
+                                        <p>CAD</p>
+                                        <h4>$60</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center my-3">
+                                    <div class="order-info-delivery d-flex">
+                                        <img src="assets/icon3.png" />
+                                        <p class="mb-0 ms-2">5 Days delivery in a week</p>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="d-flex justify-content-between order-info-date">
+                                    <p>Start Date: <strong>17 Feb 2024</strong></p>
+                                    <p>End Date: <strong>24 Feb 2024</strong></p>
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <div class="discount-code-sect">
+                                <label>Discount Coupon Code</label>
+                                <div class="left-and-right-inner-addon input-container">
+                                    <i class="fa-solid fa-ticket left"></i>
+                                    <a href="#" class="right">Apply</a>
+                                    <input type="text"
+                                    class="form-control" 
+                                    placeholder="Enter Discount Coupon" />
+                                </div>
+                            </div>
+
+                            <div class="refferal-sect discount-code-sect mt-3">
+                                <label>Refferal Discount Code</label>
+                                <div class="left-and-right-inner-addon input-container">
+                                    <i class="fa-solid fa-ticket left"></i>
+                                    <a href="#" class="right">Apply</a>
+                                    <input type="text"
+                                    class="form-control" 
+                                    placeholder="Enter Discount Coupon" />
+                                </div>
+                            </div>
+
+                            <hr class="my-4">
+
+                            <div class="order-total-sect">
+                                <div class="order-total-item d-flex justify-content-between mt-2">
+                                    <p>Subtotal</p>
+                                    <p>$60.00</p>
+                                </div>
+                                <div class="order-total-item d-flex justify-content-between mt-2">
+                                    <p>Shipping Cost</p>
+                                    <p>Free</p>
+                                </div>
+                                <div class="order-total-item d-flex justify-content-between mt-2">
+                                    <p>Coupon Discount</p>
+                                    <p>-$9.00</p>
+                                </div>
+                                <div class="order-total-item d-flex justify-content-between mt-2">
+                                    <p>Referral Discount</p>
+                                    <p>$</p>
+                                </div>
+                                <hr class="my-2">
+                                <div class="order-total-amount d-flex justify-content-between mt-3">
+                                    <p>Total</p>
+                                    <p>$51.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-payment-section col-lg-5 mt-5">
+                        <div class="order-payment-secure">
+                            <h4>Secure Payment</h4>
+                            <p>Your payment information is secure. We use industry-standard encryption technology and third-party payment processors to make sure your information is secure.</p>
+                        </div>
+
+                        <div class="payment-selection-sect mt-3">
+                            <p>Choose Your Payment Method</p>
+                            <div class="payment-method-sect">
+                                <div class="price-container d-flex justify-content-between">
+                                    <div class="price-card d-flex align-items-center">
+                                      <input name="price" id="card" type="radio">
+                                      <div class="content d-flex flex-column">
+                                            <div>Card</div>
+                                            <span>Visa/Mastercard</span>
+                                      </div>
+                                      <img src="./assets/card-payment.png">
+                                      <label for="card"></label>
+                                    </div>
+                                    
+                                    <div class="price-card d-flex align-items-center">
+                                      <input name="price" type="radio" id="enterac">
+                                      <div class="contentd-flex flex-column">
+                                            <div>Enterac</div>
+                                            <span>Email Transfer</span>
+                                      </div>
+                                      <img src="./assets/enterac-logo.png" />
+                                      <label for="enterac"></label>
+                                    </div>
+                                </div>
+                                
+                                <div class="payment-condition-card mt-4">
+                                    <div>
+                                        <p>Pay with your Visa, American Express, or MasterCard.</p>
+                                        <img src="./assets/payments-logo.png" />
+                                    </div>
+                                    
+                                    <div class="credit-info mt-2">
+                                        <input class="my-3" type="text" placeholder="Card Holder Name">
+                                        <input class="my-3" type="text" placeholder="Card Number">
+                                        <div class="d-flex my-3">
+                                            <input class="me-4" type="text" placeholder="Expiry Date">
+                                            <input type="text" placeholder="Security Code">
+                                        </div>
+                                    </div>
+                                    <div class="shipping-info d-flex align-items-center justify-content-start mt-4">
+                                        <input name="shipping" type="checkbox">
+                                        <label class="ms-3">Billing address is same as shipping</label>
+                                    </div>
+
+                                    <div class="primary-btn mt-4">Pay $51.00</div>
+                                </div>
+
+                                <div class="payment-condition-enterac mt-4">
+                                    <div>
+                                        <p>To ensure your order qualifies for next business day delivery, kindly complete your Interac payment via your bank app or web before 9 PM when selecting this option</p>
+                                    </div>
+                                    
+                                    <div class="credit-info mt-2">
+                                        <input class="my-3" type="email" placeholder="Card Holder Name">
+                                    </div>
+                                    <div class="shipping-info d-flex align-items-center justify-content-start mt-4">
+                                        <input name="shipping" type="checkbox">
+                                        <label class="ms-3">Billing address is same as shipping</label>
+                                    </div>
+
+                                    <div class="primary-btn mt-4">Pay $51.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              const cardInput = document.getElementById("card");
+              const enteracInput = document.getElementById("enterac");
+              const cardDiv = document.querySelector(".payment-condition-card");
+              const enteracDiv = document.querySelector(".payment-condition-enterac");
+          
+              cardInput.addEventListener("click", function() {
+                cardDiv.style.display = "block";
+                enteracDiv.style.display = "none";
+              });
+          
+              enteracInput.addEventListener("click", function() {
+                enteracDiv.style.display = "block";
+                cardDiv.style.display = "none";
+              });
+            });
+          </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

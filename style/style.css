@@ -556,3 +556,396 @@ table td, table th {
  .footer-logo {
     width: 20%;
  }
+
+
+ .checkout-popup {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left:0;
+   right: 0;
+   bottom:0;
+   background: #00000088;
+   z-index: 999;
+   transition: opacity 0.5s ease;
+ }
+
+ .checkout-popup.show {
+   display: flex;
+   opacity: 1;
+}
+
+ .checkout-sect {
+   background: #fff;
+   border-radius: 20px;
+   border: 1px solid #F97224;
+   box-shadow: 0px 4px 24px 0px rgba(29, 104, 214, 0.10);
+   width: 65%;
+   height: calc(100vh - 10%);
+   overflow: hidden;
+ }
+
+ .checkout-left-sect, .checkout-right-sect {
+   padding: 25px;
+ }
+
+ .checkout-product-desc  {
+   padding-left: 30px;
+ }
+
+ .checkout-product-desc h2 {
+   color: #F97224;
+   font-size: 32px;
+   font-weight: 700;
+ }
+
+ .checkout-product-detail > div {
+   padding: 5px 15px;
+   border-radius: 100px;
+   background: #FFFCDF;
+ }
+
+ .checkout-product-detail > div:nth-last-child(1) {
+   background: #E3F6D4;
+ }
+
+ .checkout-product-detail p {
+   margin: 0px 0px 0px 10px;
+
+ }
+
+ .date-select-sect p {
+   font-size: 17px;
+   color: #1D364D;
+   font-weight: 600;
+ }
+
+ #date-selection {
+   width: 100%;
+ }
+
+ .city-select-sect > p {
+   font-size: 17px;
+   font-weight: 600;
+   color:#1D364D;
+ }
+
+ .city-selection > p {
+   border-radius: 10px;
+   border: 1px solid  rgba(0, 0, 0, 0.40);
+   padding: 10px;
+   margin-right: 15px;
+   text-align: center;
+
+ }
+
+ .delivery-select-sect p:nth-child(1) {
+   font-size: 17px;
+   font-weight: 600;
+   color:#1D364D;
+ }
+
+ .delivery-selection {
+   border-radius: 10px;
+   border: 1px solid  rgba(0, 0, 0, 0.40);
+   background: #FFF;
+   width: calc(100% - 3vh);
+   padding: 10px;
+ }
+
+ .delivery-select-sect .product-primary-btn {
+   width: calc(100% - 3vh);
+   margin-top: 25px;
+ }
+
+ .delivery-date {
+   border-radius: 10px;
+   border: 1px solid  rgba(0, 0, 0, 0.40);
+   background: #FFFCDF;
+   padding: 8px;
+   line-height: 1.3em;
+ }
+
+ .checkout-right-sect {
+   background: #F6F3D4;
+ }
+
+ .checkout-price p {
+   font-size: 18px;
+ }
+
+ .checkout-price h4 {
+   font-size: 40px;
+ }
+
+ .checkout-delivery-sect {
+   border-radius: 10px;
+   border: 1px solid  rgba(0, 0, 0, 0.40);
+   background: #FFFCDF;
+   padding: 10px;
+ }
+
+ .checkout-delivery p {
+   margin: 0px 0px 0px 15px;
+   font-size: 17px;
+   font-weight: 600;
+   color: #1D364D;
+
+ }
+
+ .checkout-delivery-sect > p {
+   text-decoration: underline;
+   font-size: 14px;
+ }
+
+ .checkout-oz {
+   border-radius: 8px;
+   border: 1px solid rgba(0, 0, 0, 0.40);
+   background: #FFF;
+   padding: 10px;
+ }
+
+ .checkout-oz p {
+   margin-bottom: 0px;
+ }
+
+ .checkout-oz h4 {
+   font-size: 20px;
+ }
+ 
+ #staple-selection, #date-selection {
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.40);
+   background: #FFF;
+   padding: 10px;
+ }
+
+ .staple-select-sect label {
+   font-size: 17px;
+   font-weight: 600;
+   color: #1D364D;
+   margin-bottom: 5px;
+ }
+
+ .checkout-item-sect > p {
+   font-size: 17px;
+   font-weight: 600;
+   color: #1D364D;
+ }
+
+ .checkout-item-sect  p {
+   line-height: 1.3em;
+ }
+
+ .checkout-item-sect .primary-btn {
+   padding: 10px;
+   border-radius: 10px;
+   background: #FFFCDF;
+   color: #F97224;
+   border: 1px solid #F97224;
+   font-size: 18px;
+   font-weight: 700;
+ }
+
+ /** Checkout Page **/
+
+ .navbar-checkout {
+   padding: 25px 30px;
+   border-radius: 20px;
+   background: #FA8840;
+}
+
+.white-btn {
+   padding: 8px 16px;
+   border-radius: 10px;
+   background: #FFF;
+   color: #F97224;
+}
+
+.navbar-nav li {
+   padding: 0px 10px;
+   font-weight: 600;
+}
+
+.navbar-nav a {
+   color: #fff;
+}
+
+.login-status-sect {
+   border-radius: 3px;
+   border: 1px solid #FFE4C7;
+   background:  #FFFCDF;
+   font-size: 14px;
+   padding: 5px;
+}
+
+.login-status-sect p {
+   margin-bottom: 0;
+}
+
+.order-status-info {
+   border-radius: 10px;
+   border: 1px solid #F97224;
+   background: #FFF;
+   padding: 22px;
+}
+
+.order-status-sect h2 {
+   font-size: 22px;
+   font-weight: 700; 
+}
+
+.order-info h2 {
+   color: #F97224;
+}
+
+.order-info p {
+   font-size: 14px;
+}
+
+.order-info-delivery {
+   border-radius: 100px;
+   background:  #FFFCDF;
+   padding: 2px 10px;
+}
+
+.order-info-price {
+   color: #F97224;
+   font-weight: 600;
+}
+
+.order-info-price p {
+   font-size: 18px;
+}
+
+.order-info-price h4 {
+   font-size: 24px;
+}
+
+.order-info-date {
+   font-size: 14px;
+}
+
+.discount-code-sect {
+   font-weight: 600;
+}
+
+.input-container input {
+   border-radius: 10px;
+   border: 1px solid #F97224;
+   background: #FFF;
+   padding: 12px 0px;
+}	
+
+.left-and-right-inner-addon {
+    position: relative;
+}
+
+.left-and-right-inner-addon input {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
+
+.left-and-right-inner-addon i.left {
+    position: absolute;
+    padding: 17px 12px;
+    pointer-events: none;
+    color: #F97224;
+}
+
+.left-and-right-inner-addon a.right {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #F97224;
+}
+
+.refferal-sect input {
+   border: 1px dashed #F97224;
+}
+
+.order-total-item p{
+   font-weight: 17.5px;
+}
+
+.order-total-item p:nth-last-child(1) {
+   font-weight: 600;
+}
+
+.order-total-amount {
+   font-size:17.5px;
+   font-weight: 600;
+}
+
+.price-container{
+   gap:.95rem;
+ }
+
+ .price-card {
+   position:relative;
+   padding:1rem;
+   background: #fff;
+   border-radius:13px;
+   width:100%;
+   gap:.5rem;
+   cursor:pointer;
+   outline:none;
+   transition:.3s ease-in;
+ }
+ .price-card label{
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   width:100%;
+   border-radius:13px;
+   border:1px solid #bcbcbc;
+   
+   cursor:pointer;
+ }
+ .price-card input[type="radio"]:checked ~ label{
+   border: 2px solid  #F97224;
+   color:#5578e1;
+   outline:none;
+   border-width:2px;
+ }
+ .price-card input[type="radio"]{
+   width:30px;
+   height:auto;
+   border:0;
+   transform:scale(1.5);
+ }
+ .price-card .content span{
+   font-size:.7rem;
+ }
+
+ .credit-info input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: #FFF;
+    padding: 7px 15px !important;
+    width: 100%;
+ }
+
+ .shipping-info input {
+   height: 17px;
+   width: 17px;
+ }
+
+ .shipping-info input:checked {
+   accent-color: #4B7DF3 !important;
+ }
+
+ .shipping-info label {
+   font-size: 17.5px;
+ }
+
+ .payment-condition-card,
+  .payment-condition-enterac {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+  }
