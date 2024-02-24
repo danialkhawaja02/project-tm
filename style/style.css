@@ -944,8 +944,131 @@ table td, table th {
    font-size: 17.5px;
  }
 
- .payment-condition-card,
+.payment-condition-card,
   .payment-condition-enterac {
     display: none;
     transition: opacity 0.5s ease-in-out;
+}
+
+  /* Login Section */
+
+.login-section {
+   border-radius: 20px;
+   border: 1px solid  #F97224;
+   background: #FFF;
+   box-shadow: 0px 4px 24px 0px rgba(29, 104, 214, 0.10);
+   padding: 22px;
   }
+
+.login-section > p {
+   font-size: 17px;
+   font-weight: 600;
+}
+
+.login-info input {
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.40);
+   background: #FFF;
+   padding: 7px 15px !important;
+   width: 100%;
+}
+
+.login-info label {
+   font-size: 14px;
+}
+
+.new-member-sect p {
+   margin-bottom: 0px;
+   color: #848484;
+   font-size: 14px;
+   text-decoration: underline;
+}
+
+.new-member-sect .primary-btn {
+   color: #F97224;
+   border-radius: 10px;
+   border: 1px solid #F97224;
+   background: #fff;
+}
+
+.register-section {
+   border-radius: 20px;
+   border: 1px solid #F97224;
+   background: #FFF;
+   box-shadow: 0px 4px 24px 0px rgba(29, 104, 214, 0.10);
+   padding: 30px;
+}
+
+.register-section input {
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.40);
+   background: #FFF;
+   padding: 7px 15px !important;
+   width: 100%;
+}
+
+.policy-check input {
+   width: unset;
+}
+
+.register-section > p {
+   font-size: 17px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.register-info label {
+   font-size: 14px;
+}
+
+.verify-email-section {
+   border-radius: 20px;
+   border: 1px solid #F97224;
+   background: #FFF;
+   box-shadow: 0px 4px 24px 0px rgba(29, 104, 214, 0.10);
+   padding: 70px 30px;
+}
+
+.verify-email-section p {
+   font-size: 17px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.verify-email-section .primary-btn {
+   color: #F97224;
+   border-radius: 10px;
+   border: 1px solid #F97224;
+   background: #fff;
+}
+
+
+.checkout-product h5:first-child {
+   color: #F97224;
+   font-size: 20px;
+}
+
+.product-time{
+   padding: 5px 15px;
+   border-radius: 100px;
+   background: #E3F6D4;
+ }
+
+ .product-delivery {
+   padding: 5px 15px;
+   border-radius: 100px;
+   background: #FFFCDF;
+   margin-right: 100px;
+ }
+
+ .product-address .order-main-text {
+   color: #000 !important;
+   font-weight: 400;
+ }
+
+ .product-address .primary-btn {
+   border-radius: 10px;
+   border: 1px solid #529248;
+   background: #E3F6D4;
+   color: #000;
+ }
