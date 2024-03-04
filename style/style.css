@@ -1072,36 +1072,3 @@ table td, table th {
    background: #E3F6D4;
    color: #000;
  }
-
- .enterac-popup-sect {
-   border-radius: 20px;
-   border: 1px solid var(--orange, #F97224);
-   background: #FFF;
-   box-shadow: 0px 4px 24px 0px rgba(29, 104, 214, 0.10);
-   padding: 20px;
- }
-
- .enterac-popup-sect > p {
-   font-size: 18px;
-   font-weight: 600;
- }
-
- .enterac-info, .enterac-email {
-   font-size: 18px;
- }
-
- .enterac-info h6, .enterac-email h6 {
-   font-weight: 600;
- }
-
- .enterac-payment-detail p:first-child {
-   font-size: 18px;
-   font-weight: 600;
- }
-
- .enterac-button .white-btn, .enterac-back .white-btn{
-   color: #F97224;
-   border-radius: 10px;
-   border: 1px solid #F97224;
-   background: #fff;
- }
